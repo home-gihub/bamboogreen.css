@@ -10,6 +10,18 @@
     }
   }
 
+bo-type-larger {
+    font-size: larger;
+}
+
+bo-type-bold {
+    font-weight: bold;
+}
+
+bo-type-bolder  {
+    font-weight: bolder;
+}
+
 bo-skeloton-glow {
     font-family: Arial, Helvetica, sans-serif;
     width: 8em;
@@ -21,7 +33,7 @@ bo-skeloton-glow {
     background-color: var(--s);
 }
 
-bo-type-small > p {
+bo-type-small {
     font-size: small;
 }
 
@@ -31,7 +43,7 @@ bo-card {
     display: inline;
 }
 
-bo-type-medium > p {
+bo-type-medium {
     font-size: medium;
 }
 
