@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+bo-type-small > p {
+    font-size: small;
+}
+
+bo-card {
+    border-color: #6c757d;
+    background-color: var(--e);
+    display: inline;
+}
+
+bo-type-medium > p {
+    font-size: medium;
+}
+
+bo-alert {
+    border-radius: 0.5em;
+    border: 1px;
+    display: inline;
+    padding: 0.5em;
+    border-style: solid;
+}
+
+bo-alert[colour="red"] {
+    background-color: #6a040f;
+    border-color: #d00000;
+}
+
+bo-alert[colour="green"] {
+    background-color: #386641;
+    border-color: #a7c957;
+}
+
+bo-alert > p {
+    display: inline;
+}
+
+bo-alert[colour="red"] > p {
+    color: #d00000;
+}
+
+bo-alert[colour="green"] > p {
+    color: var(--p);
+}
+
+p {
+    color: var(--t);
+}
+
+bo-type-large > p {
+    font-size: large;
+}
+
+bo-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+:root {
+    --p: #a7c957;
+    --s: #6a994e;
+    --t: #ced4da;
+    --bg: #343a40;
+    --e: #495057;
+}
+
+a {
+    border-style: none;
+    color: var(--p);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+a[role="button"] {
+    background-color: var(--p);
+    border-radius: 0.5em;
+    padding: 0.5em;
+    display: inline;
+}
+
+a[role="button"] > p {
+    display: inline;
+    background-color: var(--p);
+    color: var(--t);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a[role="button"]:hover {
+    background-color: var(--s);
+}
+
+a[role="button"]:hover > p {
+    background-color: var(--s);
+}
+
+
+[margin="none"] {
+    margin: 0px;
+}
+
+[margin="0.5em"] {
+    margin: 0.5em;
+}
+
+[margin="1em"] {
+    margin: 1em;
+}
+
+[margin="1.5em"] {
+    margin: 1.5em;
+}
+
+[border-radius="0.5em"] {
+    border-radius: 0.5em;
+}
+
+[border-radius="1em"] {
+    border-radius: 1em;
+}
+
+[border-radius="1.5em"] {
+    border-radius: 1.5em;
+}
+
+[border-radius="none"] {
+    border-radius: 0px;
+}
+
+[padding="1em"] {
+    padding: 1em;
+}
+
+[padding="0.5em"] {
+    padding: 0.5em;
+}
+
+[padding="1.5em"] {
+    padding: 1.5em;
+}
+
+[padding="none"] {
+    padding: 0px;
+}
