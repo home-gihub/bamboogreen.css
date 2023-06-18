@@ -37,6 +37,18 @@ bo-type-small {
     font-size: small;
 }
 
+bo-type-x-large {
+    font-size: x-large;
+}
+
+bo-type-xx-large {
+    font-size: xx-large;
+}
+
+bo-type-boldest {
+    font-weight: 900;
+}
+
 bo-card {
     border-color: #6c757d;
     background-color: var(--e);
