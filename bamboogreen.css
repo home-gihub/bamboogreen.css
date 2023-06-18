@@ -1,3 +1,25 @@
+@keyframes pulse {
+    0% {
+      background-color: var(--s);
+    }
+    50% {
+        background-color: var(--p);
+    }
+    100% {
+      background-color: var(--s);
+    }
+  }
+
+bo-skeloton-glow {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 8em;
+    height: 1.5em;
+    display: block;
+    animation-name:  pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: var(--s);
+}
 
 bo-type-small > p {
     font-size: small;
