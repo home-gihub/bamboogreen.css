@@ -133,11 +133,11 @@ bo-button {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a[role="button"]:hover {
+bo-button:hover {
     background-color: var(--s);
 }
 
-a[role="button"]:hover > p {
+bo-button:hover > * {
     background-color: var(--s);
 }
 
